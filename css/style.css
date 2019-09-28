@@ -192,3 +192,7 @@ header .description {
   background: url("../img/smile-logo.png") no-repeat center center/cover;
   padding-bottom: 6rem;
 }
+
+#contact i {
+  color: #cfb53b;
+}
