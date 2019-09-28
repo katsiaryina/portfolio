@@ -1,0 +1,59 @@
+/* Smartphones */
+@media (max-width: 500px) {
+  nav a {
+    display: none;
+  }
+
+  nav {
+    padding: 4rem;
+  }
+
+  nav .logo {
+    margin: auto;
+  }
+
+  header .name h1 {
+    font-size: 2.3rem;
+  }
+
+  header .name {
+    margin-top: 70%;
+  }
+
+  header .name p {
+    font-size: 1.3rem;
+  }
+
+  header .description p:first-child {
+    font-size: 1.3rem;
+  }
+
+  header .description p {
+    font-size: 1rem;
+  }
+
+  .items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item-desc {
+    position: initial;
+    transform: none;
+    background: none;
+  }
+
+  .item-desc a {
+    margin-top: 1rem;
+  }
+
+  .item-desc h3 {
+    display: none;
+  }
+}
+
+/* header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  } */
